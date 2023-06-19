@@ -1,0 +1,51 @@
+.side{
+    border-right: 0.5px solid rgb(230,227,227);
+    min-height:100vh;
+    background-color:white;
+    flex:1;
+    padding-right: 30px;
+    .filtericon{
+      margin-left: 12px;
+      color:rgb(230,227,227) ;
+    }
+    
+    .center{
+      ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        .obj{
+            display: flex;
+            align-items: center;
+            padding: 5px;
+            margin-left: 10px;
+            cursor: pointer;
+            &:hover{
+              color: white;
+              .icon{
+                background-color:purple;
+              color: white;
+              }
+              span{
+                color: purple;
+              }
+            }
+            .icon{
+               font-size: 18px;
+               color: grey; //#7451f8
+               background-color: grey;
+               height: 40px;
+               width:40px;
+               padding: auto;
+               border-radius: 3px;
+            }
+            span{
+              font-size: 13px;
+              font-weight: 600;
+              color: black;
+              margin-left: 10px;
+            }
+        }
+      }
+    }
+}

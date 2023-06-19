@@ -1,0 +1,27 @@
+$display:flex;
+
+.home{
+    background-color: white;
+    border-bottom: 0.5px solid rgb(230,227,227);
+    width: 102vw;
+    margin-top: -20px;
+   // margin-left: -10px;
+    display: $display;
+    //padding-right: 1%;
+    flex-direction: row-reverse;
+    .title{
+        color: black;
+        margin-right: 2vw;
+    }
+}
+
+.home1{
+    display: $display;
+    width: 100vw;
+    margin-left: -10px;
+    height: 100vh;
+    .container{
+        flex: 7;
+    }
+
+}

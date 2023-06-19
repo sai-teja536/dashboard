@@ -1,0 +1,30 @@
+$color:white;
+$padding:25px;
+$fontWeight:bold;
+.desc{
+    display: flex;
+    flex: 7;
+    width: 90vw;
+    height: 25vh;
+    background-color: $color;
+   // align-items: center;
+   // justify-content: center;
+    padding-left: 25px;
+    .desc1{
+        margin-top: $padding;
+        span{
+            font-size: 28px;
+            font-weight: $fontWeight;
+            font-family:sans-serif;
+        }
+        .desc2{
+            display: flex;
+            span{
+                margin-left: 0px;
+                font-size: 17px;
+                font-weight:$fontWeight;
+                margin-right:$padding;
+            }
+        }
+    }
+}

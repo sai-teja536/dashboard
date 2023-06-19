@@ -1,0 +1,41 @@
+
+$margin:30px;
+.main{
+    background-color: rgb(230, 227, 227);
+    height: 100vh;
+    padding-top: $margin;
+    .main1{
+        display:flex;
+        margin-left: 20px;
+        margin-top: $margin;
+        margin-bottom: $margin;
+        .graph1{
+            border: 0.5px solid rgb(230,227,227);
+            background-color: white;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 8px;
+            border-radius: 3px;
+            margin-left: 20px;
+            .stocks{
+                display: flex;
+        
+                .ad{
+                    font-family: sans-serif;
+                    font-size: 15px;
+                    margin-right: 20px;
+                    .ico{
+                        background-color: red;
+                        color:white;
+                    }
+                }
+            }
+        }
+    
+    }
+    .main2{
+        background-color: white;
+        padding-left: 30px;
+
+    }
+}
